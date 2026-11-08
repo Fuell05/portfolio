@@ -86,6 +86,8 @@ h2 .serif{font-style:italic}
 .meta span{color:var(--mute);font-size:14px}
 .tags{display:flex;gap:8px;margin-top:10px;flex-wrap:wrap}
 .tags em{font-style:normal;font-size:12px;border:1px solid var(--line);border-radius:999px;padding:4px 12px;color:var(--mute)}
+.tags em.live-tag{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+.hint{font-size:13px;color:var(--mute);margin-top:10px}
 .empty{aspect-ratio:16/11;border-radius:20px;border:1px dashed #cfcfcf;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;gap:14px;padding:24px;transition:background .4s,border-color .4s}
 .empty:hover{background:var(--soft);border-color:var(--fg)}
 .empty .serif{font-size:clamp(28px,3.5vw,40px);font-style:italic;line-height:1.1}
@@ -180,7 +182,8 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
         <div class="open">↗</div>
       </div>
       <div class="meta"><h3>Шёлк</h3><span>2026</span></div>
-      <div class="tags"><em>Салон красоты</em><em>Онлайн-запись</em><em>Сертификаты</em></div>
+      <div class="tags"><em class="live-tag">● Живая запись</em><em>Салон красоты</em><em>Сертификаты</em></div>
+      <p class="hint">Оставьте тестовую запись — она придёт мне в Telegram</p>
     </a>
     <a href="#contact" class="rv">
       <div class="empty">
